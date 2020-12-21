@@ -1,4 +1,4 @@
-# PennAppsXX
+# DeFake
 ## View Our Devpost Here: https://devpost.com/software/don-t-be-fake
 Other articles here: https://penntoday.upenn.edu/news/deepfake-detector-wins-pennapps-xx
 ## Table of Contents
