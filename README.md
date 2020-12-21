@@ -8,6 +8,10 @@ Other articles here: https://penntoday.upenn.edu/news/deepfake-detector-wins-pen
 3. [How We Built It](#how-we-built-it)
 4. [Challenges We Ran Into](#challenges-we-ran-into)
 5. [Accomplishments We Are Proud Of](#accomplishments-we-are-proud-of)
+6. [What We Learned](#what-we-learned)
+7. [What Is Next For DeFake](#what-is-next-for-defake)
+8. [Technologies Used](#technologies-used)
+
 
 ## Inspiration
 The upcoming election season is predicted to be drowned out by mass influx of fake news. Deepfakes are a new method to impersonate famous figures saying fictional things, and could be particularly influential in the outcome of this and future elections. With international misinformation becoming more common, we wanted to develop a level of protection and reality for users. Facebook's Deepfake Detection Challenge, which aims to crowdsource ideas, inspired us to approach this issue.
@@ -36,17 +40,17 @@ We are proud to have created our own model and make the ML algorithm work! It wa
 
 We are able to successfully determine if a video is a deep fake, and notify the person in real time if they may be viewing tampered content!
 
-## What we learned
+## What We Learned
 We learned how to use AWS and configure the credentials, and SDK's to work. We also learned how to configure and utilize our own machine learning algorithm, and about the dlib/OpenCV python Libraries!
 
 Furthermore, we understood the importance of the misinformation issue, and how it is possible to utilize a conjuction of a machine learning model with an effective user interface to appeal to and attract internet users of all ages and demographics.
 
-## What's next for DeFake
+## What Is Next For DeFake
 Train the model with more celebrities and get the chrome extension to output whether the videos in your feed are DeepFakes or not as you scroll. Specifically, this would be done by decreasing the run time of the machine learning algorithm in the background. Although the algorithm is not as computationally costly as conventional algorithms created by experts, the run time barrs exact real-time feedback within seconds.
 
 We would also like to use the Facebooks DeepFake datasets when they are released. Specifically, deepfakes are more likely to become a potent tool of cyber-stalking and bullying in the short term, says Henry Ajder, an analyst at Deeptrace. We hope to utilize larger data bases of more diverse deepfakes outside of celebrity images to also prevent this future threat.
 
-## Built With
+## Technologies Used
 * ajax
 * amazon-web-services
 * computer-vision
